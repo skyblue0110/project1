@@ -2,10 +2,9 @@
 
 body { background: #000; }
 
-h2 { font-size: 30px; font-weight: 500; color: #fff; }
-ul { background-color: #bbbbbb; }
+h2 { font-size: 30px; font-weight: 500; color: #fff; text-align: center; }
+ul {  }
 ul li { float: left; width: 32%; margin-right: 2%;
-    border: 1px solid#999;
     margin-bottom: 20px; text-align: center;
 }
 li { color: #fff; }
