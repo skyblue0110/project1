@@ -2,11 +2,32 @@
 
 body { background: #000; }
 
-h2 { font-size: 30px; font-weight: 500; color: #fff; text-align: center; }
-ul {  }
-ul li { float: left; width: 32%; margin-right: 2%;
-    margin-bottom: 20px; text-align: center;
+h2 { font-size: 30px; font-weight: 500; color: #fff; padding: 80px 0 20px; text-align: center; }
+/* ul { overflow: hidden; } */
+ul li { float: left; width: 32%; margin-bottom: 5%;
+    text-align: center;
 }
+
+ul li:nth-child(3n) { margin-right: 0%; }
+li > div { position: relative; overflow: hidden; }
+li > div::before {
+    content:''; position:absolute; top:0; left:0; right:0;
+    bottom:0;  background:rgba(0,0,0,0);
+    transition:all 0.4s;
+}
+li:hover > div::before {
+    background: rgba(0,0,0,0.5);
+}
+li > div img { transition: all 0.4s; }
+/* li:hover > div img { transform: scale(1.2); } */
+li .zoom { position: absolute;
+    top: 50%; transform: translateY(-50%);
+    left: 0; right: 0;
+    color: #fff; opacity: 0;
+    transition: all 0.4s; z-index: 10;
+}
+li:hover .zoom { opacity: 1; }
+li h4 { font-size: 35px; margin: 12px; }
+li p { font-size: 20px; margin: 12px; }
+
 li { color: #fff; }
-h4 { font-size: 35px; }
-p { font-size: 24px; }
