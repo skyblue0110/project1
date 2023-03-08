@@ -8,82 +8,163 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/rwdindex.css">
+    <script src="./js/prefixfree.min.js"></script>
     <title>camping_recommend</title>
+    <script src="./js/prefixfree.min.js"></script>
 </head>
 <body>
     <div id="wrap">
-        <header id="header"></header>
+        <header id="header">
+          <div class="headerbox">
+            <div class="top_menu">
+              <div class="row">
+                <a href="./login.html">LOGIN</a>
+                <a href="./join.html">SIGNUP</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="logobox">
+                <h1>
+                  <a href="./index.html" class="logo">
+                    <span class="blind">로고</span>
+                  </a>
+                </h1>
+              </div>
+            </div>
+            <nav id="nav">
+              <div class="navbox">
+                <!-- <div class="box_bg"></div> -->
+                <ul class="depth1">
+                  <li>
+                    <a href="index.html">ABOUT US</a>
+                  </li>
+                  <li>
+                    <a href="safety/index.html">SAFETY</a>
+                  </li>
+                  <li>
+                    <a href="search/index.html">SEARCH</a>
+                  </li>
+                  <li>
+                    <a href="recommand/index.html">RECOMMAND</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <!-- header -->
+        <a href="#" class="hamburger-button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <!-- hamburger -->
+        <div class="m_menu">
+          <nav class="menu">
+            <ul class="m_depth1">
+              <li>
+                <a href="index.html">ABOUT US</a>
+              </li>
+              <li>
+                <a href="safety/index.html">SAFETY</a>
+              </li>
+              <li>
+                <a href="search/index.html">SEARCH</a>
+              </li>
+              <li>
+                <a href="recommand/index.html">RECOMMAND</a>
+              </li>
+              <li class="topMenu">
+                <a href="#">LOGIN</a>
+              </li>
+              <li class="topMenu">
+                <a href="#">SIGNUP</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <section id="section">
+            <article class="article1">
+                <div class="recommend">
+                    <h2></h2>
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="http://www.naver.com"></a>
+                                <img src="img/2023-03-02소란캠프.png" alt="소란캠프">
+                                <div class="zoom">
+                                    <a href="http://www.naver.com"></a>
+                                    <h4>소란캠프</h4>
+                                    <p>경기도 가평군 청평면 대성리578-3</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.naver.com"></a>
+                                <img src="img/2023-03-02반딧불자연캠핑장.png" alt="반딧불자연캠핑장">
+                                <div class="zoom">
+                                    <a href="#"></a>
+                                    <h4>반딧불자연캠핑장</h4>
+                                    <p>충청북도 단양군 단성면 두항리 1길 50</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.naver.com"></a>
+                                <img src="img/2023-03-02김삿갓 체험 캠핑장.png" alt="김삿갓체험캠핑장">
+                                <div class="zoom">
+                                    <a href="#"></a>
+                                    <h4>김삿갓 체험 캠핑장</h4>
+                                    <p>강원도 영월국 김삿갓면 와석리 327-2</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.naver.com"></a>
+                                <img src="img/2023-03-02파피루스캠핑장.png" alt="파피루스캠핑장">
+                                <div class="zoom">
+                                    <a href="#"></a>
+                                    <h4>파피루스캠핑장</h4>
+                                    <p>경기도 포천시 영중면 성동리 74번지</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.naver.com"></a>
+                                <img src="img/2023-03-06청운오토캠핑장.png" alt="청운오토캠핑장">
+                                <div class="zoom">
+                                    <a href="#"></a>
+                                    <h4>청운오토캠핑장</h4>
+                                    <p>경기도 양평군 청운면 수풀길 37</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="http://www.naver.com"></a>
+                                <img src="img/2023-03-06문라이트캠핑장.png" alt="문라이트캠핑장">
+                                <div class="zoom">
+                                    <a href="#"></a>
+                                    <h4>문라이트캠핑장</h4>
+                                    <p>인천광역시 강화군 길상면 선두리 978-6</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <footer></footer>
     </div>
-    <div class="inner">
-        <h2> caming_recommend</h2>
-        <ul>
-            <li>
-                <div>
-                    <a href="http://www.naver.com"></a>
-                    <img src="img/2023-03-02소란캠프.png" alt="소란캠프">
-                    <div class="zoom">
-                        <a href="http://www.naver.com"></a>
-                        <h4>1. 소란캠프</h4>
-                        <p>경기도 가평군 청평면 대성리578-3</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="http://www.naver.com"></a>
-                    <img src="img/2023-03-02반딧불자연캠핑장.png" alt="반딧불자연캠핑장">
-                    <div class="zoom">
-                        <a href="#"></a>
-                        <h4>2. 반딧불자연캠핑장</h4>
-                        <p>충청북도 단양군 단성면 두항리 1길 50</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="http://www.naver.com"></a>
-                    <img src="img/2023-03-02김삿갓 체험 캠핑장.png" alt="김삿갓체험캠핑장">
-                    <div class="zoom">
-                        <a href="#"></a>
-                        <h4>3. 김삿갓 체험 캠핑장</h4>
-                        <p>강원도 영월국 김삿갓면 와석리 327-2</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="http://www.naver.com"></a>
-                    <img src="img/2023-03-02파피루스캠핑장.png" alt="파피루스캠핑장">
-                    <div class="zoom">
-                        <a href="#"></a>
-                        <h4>4. 파피루스캠핑장</h4>
-                        <p>경기도 포천시 영중면 성동리 74번지</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="http://www.naver.com"></a>
-                    <img src="img/2023-03-06청운오토캠핑장.png" alt="청운오토캠핑장">
-                    <div class="zoom">
-                        <a href="#"></a>
-                        <h4>5. 청운오토캠핑장</h4>
-                        <p>경기도 양평군 청운면 수풀길 37</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="http://www.naver.com"></a>
-                    <img src="img/2023-03-06문라이트캠핑장.png" alt="문라이트캠핑장">
-                    <div class="zoom">
-                        <a href="#"></a>
-                        <h4>6. 문라이트캠핑장</h4>
-                        <p>인천광역시 강화군 길상면 선두리 978-6</p>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
