@@ -218,8 +218,8 @@ body { background: #000; }
   }
   
 
-.article1 h2 { font-size: 50px; font-weight: 500; color: #fff; padding: 30px 0 40px; text-align: center; }
-/* ul { overflow: hidden; } */
+.article1 h2 { padding: 30px 0 40px; }
+.article1 ul { z-index: 9999; }
 .article1 ul li { float: left; width: 32%; margin-bottom: 5%;
     text-align: center;
 }
@@ -245,11 +245,15 @@ body { background: #000; }
 .article1 li:hover .zoom { opacity: 1; }
 .article1 li h4 { font-size: 35px; margin: 12px; }
 .article1 li p { font-size: 20px; margin: 12px; }
+#wrapper {
+  padding-bottom: 42%;
+}
 
  /* 푸터 */
  #footer {
     width: 100%;
     position: relative;
+    transform: translateY(-100%);
     /* position: fixed;
     left: 0;
     bottom: 0; */
