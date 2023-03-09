@@ -6,6 +6,7 @@ body { background: #000; }
     margin: 0 auto;
     padding: 0 10px;
   }
+  /* 기본css */
   
   /* 헤더 */
   #header {
@@ -103,8 +104,12 @@ body { background: #000; }
   }
   
   /* nav 메뉴 */
-  #header:hover #nav .depth1 > li {
+  #header #nav .depth1 > li {
     color: #000;
+    display:none;
+  }
+  #header #nav .depth1 { 
+    position: fixed; 
   }
   
   #header.on #nav .depth1 > li {
@@ -217,9 +222,11 @@ body { background: #000; }
     transform: rotate(-45deg);
   }
   
-
+#section {
+  padding-bottom: 44%; 
+}
 .article1 h2 { padding: 30px 0 40px; }
-.article1 ul { z-index: 9999; }
+.article1 ul { padding: 0 0 0 40px; }
 .article1 ul li { float: left; width: 32%; margin-bottom: 5%;
     text-align: center;
 }
@@ -245,22 +252,20 @@ body { background: #000; }
 .article1 li:hover .zoom { opacity: 1; }
 .article1 li h4 { font-size: 35px; margin: 12px; }
 .article1 li p { font-size: 20px; margin: 12px; }
-#wrapper {
-  padding-bottom: 42%;
-}
+
 
  /* 푸터 */
- #footer {
+ /* #footer {
     width: 100%;
-    position: relative;
-    transform: translateY(-100%);
+    position: relative; */
+    /* transform: translateY(-100%); */
     /* position: fixed;
     left: 0;
     bottom: 0; */
-    background: #111;
-    padding: 20px 0 50px 0;
+    /* background: #111;
+    padding: 20px 0 160px 0;
     color: #ddd;
-  }
+  } 
   
   #footer .footer_wrap {
     width: 80%;
@@ -273,19 +278,19 @@ body { background: #000; }
     height: 85px;
     position: absolute;
     left: -60px;
-  }
+  }*/
   
-  #footer .fnb {
-    width: 80%;
+  /* #footer .fnb {
+    width: 80%; */
     /* padding: 15px 0 0 0; */
-    overflow: hidden;
+    /* overflow: hidden;
     margin-left: 160px;
-    position: absolute;
+    position: absolute; */
     /* top: -15px; */
-    left: 0px;
-  }
+    /* left: 0px;
+  } */
   
-  #footer .fnb li {
+  /* #footer .fnb li {
     display: inline-block;
     color: #ddd;
     font-weight: bold;
@@ -294,7 +299,7 @@ body { background: #000; }
   
   #footer .fnb li:hover a {
     color: #fff;
-  }
+  } 
   
   #footer .fnb li a {
     padding: 0 20px;

@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* header, footer 사이즈 조절 */
+
 @media screen and (max-width: 1024px) {
   #header {
     height: 60px;
@@ -59,6 +61,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
   #header #nav .depth1 {
     position: absolute;
     top: 50%;
@@ -70,7 +73,7 @@
   }
 
   #header #nav .depth1 > li {
-    display: block;
+    display: hidden;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 600;
@@ -96,7 +99,7 @@
     width: 100%;
     position: relative;
     background: #111;
-    padding: 20px 0 50px 0;
+    margin: 70px 0 50px 0;
     color: #ddd;
   }
 

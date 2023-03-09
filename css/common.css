@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 0 10px;
 }
+/* header, footer 공통 */
 
 /* 헤더 */
 #header {
@@ -216,11 +217,15 @@
 
   /* 푸터 */
 #footer {
-  width: 100%; height: 0px;
+  width: 100%;
   position: relative;
   /* position: fixed;
   left: 0;
-  bottom: 0; */
+  bottom: 0; 
+  rwd 가져옴
+  padding: 20px 0 50px 0;
+    margin: 70px 0 50px 0;
+    */
   background: #111;
   padding: 20px 0 50px 0;
   color: #ddd;
@@ -258,6 +263,10 @@
 
 #footer .fnb li:hover a {
   color: #fff;
+}
+  
+#footer .fnb li a {
+  padding: 0 20px;
 }
 
 #footer .fnb span {
