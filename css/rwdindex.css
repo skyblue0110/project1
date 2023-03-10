@@ -29,7 +29,7 @@
           transition: all 0.4s; z-index: 10;
       }
       .article1 li:hover .zoom { opacity: 1; }
-      .article1 li h4 { font-size: 35px; margin: 12px; }
+      .article1 li h3 { font-size: 35px; margin: 12px; }
       .article1 li p { font-size: 20px; margin: 12px; }
       #wrapper {
         padding-bottom: 42%;
@@ -64,7 +64,7 @@
     transition: all 0.4s; z-index: 10;
 }
 .article1 li:hover .zoom { opacity: 1; }
-.article1 li h4 { font-size: 25px; margin: 12px; }
+.article1 li h3 { font-size: 25px; margin: 12px; }
 .article1 li p { font-size: 15px; margin: 12px; }
 
 }
