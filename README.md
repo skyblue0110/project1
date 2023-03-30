@@ -28,4 +28,5 @@ width="100px"><br>
 7. 테이블 작성하기
 ----
 <table>
-<tr><td>1</td><td>2</td?</tr>
+<tr><td>1</td><td>2</td></tr>
+<tr><td>3</td><td>4<td></tr>
